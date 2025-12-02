@@ -1,0 +1,79 @@
+@font-face {
+    font-family: "Pokemon Solid";
+    src: url(fonts/Pokemon\ Solid.ttf);
+}
+
+.body {
+    background: linear-gradient(to right, lightblue, rgb(194, 44, 194));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-family: "Pokemon Solid";
+    font-size: 4.5rem;
+    color: yellow;
+    text-shadow:
+        2px 2px blue,
+        2px -2px blue,
+        -2px 2px blue,
+        -2px -2px blue;
+    font-weight: 900;
+}
+
+.pokecontainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.pokemon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: orangered;
+    border-radius: 10px;
+    box-shadow: 0 3px 15px rgba(116, 8, 0, 0.5);
+    padding: 20px;
+    text-align: center;
+    flex-basis: 12rem;
+    margin: 15px;
+}
+
+.imgcontainer {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    max-width: 90%;
+}
+
+.info {
+    margin-top: 20px;
+}
+
+.numero {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 2px 13px;
+    border-radius: 10px;
+    letter-spacing: 3px;
+    font-size: 0.8rem;
+}
+
+.nome {
+    margin: 15px 0 7px;
+    letter-spacing: 0.5px;
+}
